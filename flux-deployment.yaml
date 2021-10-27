@@ -136,7 +136,8 @@ spec:
         - --git-label=flux-sync
         - --git-sync-tag=flux-sync
         #- --automation-interval=55m
-        - -–registry-disable-scanning=true
+        #- -–registry-disable-scanning=true
+        - --automation-interval=180m
         - --registry-poll-interval=180m
         - --registry-rps=1
         - --registry-burst=1
