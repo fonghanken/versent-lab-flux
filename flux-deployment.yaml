@@ -141,6 +141,6 @@ spec:
         - --registry-poll-interval=360m
         - --registry-rps=1
         - --registry-burst=1
-        - --registry-exclude-image=*,*/kubernetesui/*,*/library/*,registry.redhat.io/*,docker.io/*,index.docker.io/*,quay.io/*,k8s.gcr.io/*,_memcached._tcp.memcached/*
+        - --registry-exclude-image=*public.ecr.aws*,*/kubernetesui/*,*/library/*,registry.redhat.io/*,docker.io/*,index.docker.io/*,quay.io/*,k8s.gcr.io/*,_memcached._tcp.memcached/*
         #- --registry-include-image=docker.io/hanken16/*
         #- --registry-exclude-image=registry.redhat.io/*,docker.io/*,index.docker.io/*,quay.io/*,k8s.gcr.io/*,_memcached._tcp.memcached/*
