@@ -115,8 +115,8 @@ spec:
         - --ssh-keygen-dir=/var/fluxd/keygen
 
         # replace or remove the following URL
-        - --git-url=ssh://git@github.com/fonghanken/${versent-lab-exercise}.git
-        - --git-path=cluster-config
+        - --git-url=ssh://git@github.com/fonghanken/versent-lab-config.git
+        - --git-path=${versent-lab-exercise}
 
         # include these next two to connect to an "upstream" service
         # (e.g., Weave Cloud). The token is particular to the service.
